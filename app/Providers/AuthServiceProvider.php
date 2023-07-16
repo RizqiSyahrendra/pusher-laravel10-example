@@ -31,8 +31,8 @@ class AuthServiceProvider extends ServiceProvider
                 Log::debug("broadcast auth success");
                 $user = new User();
                 $user->id = 1;
-                $user->email = 'aldi@mail.com';
-                $user->name = 'aldi';
+                $user->email = 'john@mail.com';
+                $user->name = 'john';
                 $user->token = 'asdasd123';
 
                 return $user;
